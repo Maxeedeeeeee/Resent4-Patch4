@@ -5,11 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="Resent 1.8" />
 		<meta name="keywords" content="eaglercraft, eaglercraftx, minecraft, 1.8, 1.8.8, resent, hooman, kone, nitwit, lax1dude" />
-		<title>Resent Client</title>
+		<title>PvpClub</title>
 		<meta property="og:locale" content="en-US" />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Resent 1.8" />
-		<meta property="og:description" content="Resent 1.8" />
+		<meta property="og:title" content="PvpMC" />
+		<meta property="og:description" content="PvpMC" />
 		<link type="image/png" rel="shortcut icon" href="favicon.png" id="favicon"/>
 		<script type="text/javascript" src="./classes.js"></script>
 		<style>
@@ -306,19 +306,16 @@
 						assetsURI: "assets.epk",
 						localesURI: "lang/",
 						servers: [
+							{ addr: "wss://play.pvpclub.xyz", name: "PvpClub" },
 							{ addr: "wss://mc.arch.lol/", name: "ArchMC" },
-							{ addr: "wss://ep.rufan.tech", name: "TimeLegacy"},
-							{ addr: "wss://play.ragexwaternet.online", name: "Water Network"},
 							{ addr: "wss://mc.asspixel.net/", name: "Ass Pixel" },
-							{ addr: "wss://vanillacraft.kones.tech/", name: "VanillaMC Legacy" },
 							{ addr: "wss://clever-teaching.com", name: "Clever Teaching" },
-							{ addr: "wss://ggsmp.net", name: "GG SMP"}
 						],
 						demoMode: false,
 						worldsDB: "worlds",
 						logInvalidCerts: true,
 						relays: [
-							{ addr: "wss://relay.deev.is/", comment: "lax1dude relay #1", primary: relayId == 0 },
+							{ addr: "wss://pvpclub.xyz", comment: "lax1dude relay #1", primary: relayId == 0 },
 							{ addr: "wss://relay.lax1dude.net/", comment: "lax1dude relay #2", primary: relayId == 1 },
 							{ addr: "wss://relay.shhnowisnottheti.me/", comment: "ayunami relay #1", primary: relayId == 2 }
 						]
